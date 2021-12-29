@@ -30,8 +30,9 @@ main {
 .card__img {
   width: 100%;
   position: relative;
-  height: 600px;
+  height: 500px;
   width: 100%;
+  border-radius: 0 10px 10px 0;
 }
 
 .card__img::after {
@@ -43,6 +44,7 @@ main {
   height: 100%;
   z-index: 5;
   background-color: rgba(67, 9, 114, 0.5);
+  border-radius: 0 10px 10px 0;
 }
 
 .card__img img {
@@ -52,6 +54,7 @@ main {
   left: 0px;
   height: 100%;
   object-fit: cover;
+  border-radius: 0 10px 10px 0;
 }
 
 .card {
@@ -61,6 +64,7 @@ main {
   flex-direction: row-reverse;
   background-color: var(--blue);
   width: 75%;
+  border-radius: 10px;
 }
 
 .card__text-content {
